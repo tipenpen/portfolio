@@ -22,7 +22,18 @@ export async function GET() {
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const { passcode, data } = body;
+    const { passcode, data, action } = body;
+
+    // Verifikasi kredensial login admin dari server secara aman
+    if (action === "verify") {
+      if (passcode === ADMIN_PASSCODE) {
+        return NextResponse.json({ success: true, verified: true });
+      }
+      return NextResponse.json(
+        { error: "Kata sandi otorisasi tidak valid." },
+        { status: 401 }
+      );
+    }
 
     if (passcode !== ADMIN_PASSCODE) {
       return NextResponse.json(

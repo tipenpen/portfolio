@@ -79,14 +79,25 @@ export default function AdminCMSPage() {
     }
   }, []);
 
-  const handleLogin = (e: React.FormEvent) => {
+  const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (passcode === "admin123") {
-      setIsAuthenticated(true);
-      sessionStorage.setItem("tipen_cms_pass", passcode);
-      setAuthError("");
-    } else {
-      setAuthError("Kata sandi salah. (Kata sandi bawaan: admin123)");
+    setAuthError("");
+    try {
+      const res = await fetch("/api/cms", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ action: "verify", passcode }),
+      });
+      if (res.ok) {
+        setIsAuthenticated(true);
+        sessionStorage.setItem("tipen_cms_pass", passcode);
+        setAuthError("");
+      } else {
+        const resData = await res.json().catch(() => null);
+        setAuthError(resData?.error || "Kata sandi otorisasi tidak valid.");
+      }
+    } catch {
+      setAuthError("Gagal menghubungi server verifikasi.");
     }
   };
 
@@ -298,7 +309,7 @@ export default function AdminCMSPage() {
                 type="password"
                 value={passcode}
                 onChange={(e) => setPasscode(e.target.value)}
-                placeholder="Masukkan kata sandi (Default: admin123)"
+                placeholder="Masukkan kata sandi akses administrator"
                 className="w-full rounded-xl border border-white/[0.1] bg-black/40 px-4 py-3 text-sm text-white placeholder-zinc-600 focus:border-white/40 focus:outline-none"
               />
             </div>
