@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "name": "Tipen",
+    "brandSubtitle": "WEB DEVELOPER",
+    "availability": "Tersedia untuk Proyek Baru",
+    "location": "Jakarta, Indonesia",
+    "greeting": "Halo, Saya Tipen",
+    "headline1": "Merancang Website",
+    "headlineSub": "Elegan & Berkinerja Tinggi",
+    "headlineSubTag": "rapi • cepat • responsif",
+    "headlineEnd": "Untuk Segala Kebutuhan Digital.",
+    "bio1": "Saya adalah seorang pengembang website profesional yang berdedikasi membantu perusahaan, pelaku usaha, dan perorangan dalam mewujudkan kehadiran digital yang berkelas dan berkinerja tinggi.",
+    "bio2": "Setiap website dirancang dengan perhatian mendalam pada kejelasan informasi, kecepatan akses pada perangkat seluler maupun desktop, serta kemudahan navigasi bagi pengunjung.",
+    "valueBadges": [
+      "Tampilan Optimal di Seluler & Desktop",
+      "Kecepatan Memuat Halaman Tinggi",
+      "Struktur Bersih & Terpercaya"
+    ],
+    "email": "hello@tipen.dev",
+    "whatsapp": "+6281234567890",
+    "heroBtnPrimary": "Lihat Portofolio Proyek",
+    "heroBtnSecondary": "Hubungi Saya",
+    "footerTitle": "Memiliki Rencana",
+    "footerTitleHighlight": "Pengembangan Website?",
+    "footerBtnText": "Mulai Sesi Konsultasi",
+    "copyright": "© 2026 TIPEN. Seluruh Hak Cipta Dilindungi."
+  },
+  "education": [
+    {
+      "id": "edu-1",
+      "institution": "Universitas / Perguruan Tinggi",
+      "degree": "Sarjana Komputer (S.Kom) - Teknik Informatika",
+      "period": "2020 — 2024",
+      "description": "Mempelajari dasar-dasar rekayasa perangkat lunak, arsitektur aplikasi web, struktur data dan algoritma, serta perancangan antarmuka pengguna (UI/UX).",
+      "achievements": [
+        "Lulus dengan Predikat Pujian",
+        "Fokus Rekayasa Web"
+      ]
+    },
+    {
+      "id": "edu-2",
+      "institution": "Sekolah Menengah Kejuruan (SMK)",
+      "degree": "Rekayasa Perangkat Lunak (RPL)",
+      "period": "2017 — 2020",
+      "description": "Mengembangkan pemahaman mendalam tentang pemrograman dasar, basis data terstruktur, dan pembuatan website responsif.",
+      "achievements": [
+        "Kompetensi Pemrograman Web"
+      ]
+    }
+  ],
+  "socials": [
+    {
+      "id": "wa",
+      "name": "WhatsApp",
+      "href": "https://wa.me/6281234567890",
+      "handle": "Kirim Pesan WhatsApp"
+    },
+    {
+      "id": "ig",
+      "name": "Instagram",
+      "href": "https://instagram.com/tipendev",
+      "handle": "@tipendev"
+    },
+    {
+      "id": "gh",
+      "name": "GitHub",
+      "href": "https://github.com/tipen-dev",
+      "handle": "tipen-dev"
+    }
+  ],
+  "projects": [
+    {
+      "id": "omniflow",
+      "num": "01",
+      "title": "OmniFlow Workspace",
+      "client": "Perusahaan Manajemen Operasional",
+      "category": "Aplikasi Manajemen Bisnis & Tim",
+      "year": "2025",
+      "role": "Pengembang Website Utama",
+      "description": "Platform pengelolaan alur kerja operasional tim yang memfasilitasi koordinasi tugas harian, pelacakan progres, dan otomatisasi administrasi secara terintegrasi.",
+      "tech": [
+        "Aplikasi Web",
+        "Manajemen Tim",
+        "Dashboard Interaktif",
+        "Otomatisasi Alur Kerja"
+      ],
+      "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80",
+      "specs": [
+        {
+          "label": "KATEGORI",
+          "value": "Aplikasi Bisnis"
+        },
+        {
+          "label": "TAMPILAN",
+          "value": "Responsif Seluler & Desktop"
+        },
+        {
+          "label": "EFISIENSI",
+          "value": "Otomatisasi Terpadu"
+        }
+      ],
+      "link": "#"
+    },
+    {
+      "id": "kinesis",
+      "num": "02",
+      "title": "Kinesis Boutique Store",
+      "client": "Brand Busana Modern",
+      "category": "Platform Toko Daring (E-Commerce)",
+      "year": "2025",
+      "role": "Pengembang Website",
+      "description": "Website e-commerce eksklusif dengan katalog produk beresolusi tinggi, navigasi belanja yang intuitif, serta proses pembayaran digital yang cepat dan terjamin keamanannya.",
+      "tech": [
+        "Toko Daring",
+        "Katalog Produk",
+        "Integrasi Pembayaran",
+        "Desain Eksklusif"
+      ],
+      "image": "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?auto=format&fit=crop&w=1200&q=80",
+      "specs": [
+        {
+          "label": "KATEGORI",
+          "value": "Toko Online"
+        },
+        {
+          "label": "FITUR UTAMA",
+          "value": "Katalog & Transaksi Instan"
+        },
+        {
+          "label": "PEMBAYARAN",
+          "value": "Multi-Channel Digital"
+        }
+      ],
+      "link": "#"
+    },
+    {
+      "id": "nexus",
+      "num": "03",
+      "title": "Nexus Enterprise Analytics",
+      "client": "Layanan Analisis Pasar Digital",
+      "category": "Dashboard Pemantauan & Laporan",
+      "year": "2024",
+      "role": "Pengembang Website",
+      "description": "Pusat visualisasi data penjualan dan kinerja usaha yang menyajikan grafik analitik berkala secara akurat dalam tata letak yang bersih dan terstruktur rapi.",
+      "tech": [
+        "Dashboard Eksekutif",
+        "Grafik Penjualan",
+        "Laporan Berkala",
+        "Mode Tampilan Gelap"
+      ],
+      "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80",
+      "specs": [
+        {
+          "label": "KATEGORI",
+          "value": "Dashboard Laporan"
+        },
+        {
+          "label": "PEMBARUAN DATA",
+          "value": "Otomatis & Real-Time"
+        },
+        {
+          "label": "AKSESIBILITAS",
+          "value": "Optimal di Semua Layar"
+        }
+      ],
+      "link": "#"
+    },
+    {
+      "id": "chronicle",
+      "num": "04",
+      "title": "Chronicle Editorial Media",
+      "client": "Portal Publikasi Independen",
+      "category": "Media Berita & Publikasi Artikel",
+      "year": "2024",
+      "role": "Pengembang Website",
+      "description": "Website media publikasi artikel dan warta berita yang dirancang khusus untuk kenyamanan membaca pembaca, memiliki kecepatan memuat halaman sangat tinggi, serta terindeks optimal di mesin pencari Google.",
+      "tech": [
+        "Media Digital",
+        "Publikasi Artikel",
+        "Akses Super Cepat",
+        "Optimasi Mesin Pencari (SEO)"
+      ],
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "specs": [
+        {
+          "label": "KATEGORI",
+          "value": "Portal Berita"
+        },
+        {
+          "label": "KECEPATAN",
+          "value": "Memuat Seketika"
+        },
+        {
+          "label": "VISIBILITAS",
+          "value": "Terindeks Google Maksimal"
+        }
+      ],
+      "link": "#"
+    }
+  ],
+  "preloader": {
+    "badge": "WEB DEVELOPER",
+    "messages": [
+      "Memuat halaman...",
+      "Menyiapkan portofolio...",
+      "Menata antarmuka...",
+      "Hampir siap...",
+      "Selamat datang!"
+    ],
+    "footerText": "DESAIN BERSIH • CEPAT • NYAMAN"
+  }
+}
